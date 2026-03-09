@@ -3,20 +3,24 @@
 ## 最終更新: 2025/03/09
 
 ## 完了済み
-- [ ] （完了したものをここに）
+- [x] GitHubリポジトリ作成
+- [x] README.md 作成
+- [x] PROGRESS.md 作成
+- [x] フォルダ構造作成（docs/gas/sheets/dashboard/prompts）
 
 ## 進行中
-- [ ] Phase 1: リポジトリ基盤構築
+- [ ] Phase 1: Sheets CRM 列定義
 
 ## 次にやること
-- GitHubリポジトリ作成
-- Sheets CRM の列定義
+- Sheets CRMの列定義（crm_schema.md）
+- Sheets 費用ログの列定義（expense_schema.md）
+- GAS: 01_calendar_trigger.gs を作成・テスト
 
-## 設定済みの値（コードに必要な情報）
-- SHEET_ID: （後で記入）
-- CARD_FOLDER_ID: （後で記入）
-- CHAT_WEBHOOK: （後で記入）
-- CLAUDE_API_KEY: スクリプトプロパティに保存済み
+## 設定済みの値
+- SHEET_ID: （未記入）
+- CARD_FOLDER_ID: （未記入）
+- CHAT_WEBHOOK: （未記入）
+- CLAUDE_API_KEY: （未記入）
 
 ## 決定済みの設計
 - 名刺スキャン: Gemini写真3〜4枚 → Sheetsエクスポート
